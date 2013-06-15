@@ -6,16 +6,7 @@
     <packaging>jar</packaging>
     <version>1.0.3</version>
     <name>scannotation</name>
-    <url>http://maven.apache.org</url>
-<!--
-    <distributionManagement>
-        <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
-        </repository>
-    </distributionManagement>
--->
+    <url>http://scannotation.sourceforge.net/</url>
     <repositories>
         <repository>
           <id>jboss-public-repository-group</id>
@@ -39,12 +30,12 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
- <!--       <dependency>
-            <groupId>org.resteasy</groupId>
+        <dependency>
+            <groupId>org.scannotation</groupId>
             <artifactId>titan-cruise</artifactId>
             <version>1.0</version>
             <scope>test</scope>
-        </dependency>  -->
+        </dependency>  
         <dependency>
             <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
@@ -77,14 +68,14 @@
                     <target>1.5</target>
                 </configuration>
             </plugin>
-           <plugin>
+  <!--         <plugin>
               <groupId>org.apache.maven.plugins</groupId>
               <artifactId>maven-site-plugin</artifactId>
 			  <version>3.3</version>
               <configuration>
                  <locales>en</locales>
               </configuration>
-           </plugin>
+           </plugin>-->
         </plugins>
     </build>
 </project>
