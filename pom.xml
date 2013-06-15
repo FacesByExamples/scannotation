@@ -1,5 +1,5 @@
 <project>
-    <name>Scannotation</name>
+    <name>Scannotation All</name>
     <url>http://scannotation.sourceforge.net/</url>
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.scannotation</groupId>
